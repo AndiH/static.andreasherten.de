@@ -88,7 +88,7 @@ function generateEmbedCode(id) {
     + id + '" frameborder="0" allowfullscreen></iframe>';
 }
 function generateButton(id) {
-	return '<button class="embed notActive" id="' + id + '"><i class="fa fa-caret-square-o-down"></i>Vidoe Embed</button>';
+	return '<button class="embed notActive" id="' + id + '"><i class="fa fa-caret-square-o-down"></i>Video Embed</button>';
 }
 jQuery(document).ready(function($) {
 	$("ul li ul li").each(function() {
