@@ -1,0 +1,113 @@
+/* Reset */
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: white;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 1em;
+}
+
+p {
+  margin: 1em 0;
+}
+
+a {
+  color: #00a;
+}
+
+a:hover {
+  color: black;
+}
+
+a:visited {
+  color: #a0a;
+}
+
+table {
+  font-size: inherit;
+  font: 100%;
+}
+
+/* global renormalization */
+body {
+	font-size: 16px;
+}
+h1 {
+	font-size: 1.6em;
+}
+h2 {
+	font-size: 1.3em;
+}
+a {
+	color: #6098bf;
+}
+a:visited {
+	color: #3c80b1;
+}
+a:hover, a:active {
+	color: #78BBE2;
+}
+/* The rest */
+body {
+	background-color: #E7EDF3;
+}
+#main {
+	margin: auto;
+	margin-top: 8px;
+	width: 800px;
+	padding: 20px;
+	background: url('http://www.andisblog.de/wp-content/uploads/2012/11/header_20white.png') rgba(255, 255, 255, 0.8);
+	background-size: 100px;
+	background-repeat: repeat-x;
+	margin-bottom: 20px;
+}
+
+h1#top {
+	font-weight: 200;
+	letter-spacing: 0.4em;
+	font-size: 40px;
+	color: #46754D;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-top: 20px;
+	font-family: 'Exo', arial, serif;
+}
+h1#top {
+	text-transform: lowercase;
+}
+h1.title {
+	margin-bottom: 0.1em;
+}
+
+#footer {
+	text-align: center;
+	font-size: 0.6em;
+	opacity: 0.5;
+	margin-top: 8em;
+}
+#footer:hover {
+	opacity: 0.7;
+}
+a em {
+	font-weight: 600;
+	font-style: italic;
+}
+span.date {
+	color: #D5DBE4;
+	font-size: 0.8em;
+}
+li > span.date {
+	color: #4E6074;
+	padding-right: 0.5em;
+	font-size: 1em;
+}
+.date i {
+	padding-right: 3px;
+}
