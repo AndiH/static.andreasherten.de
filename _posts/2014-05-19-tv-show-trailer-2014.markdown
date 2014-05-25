@@ -49,9 +49,10 @@ Here is this list.
     * Gracepoint (m): [https://www.youtube.com/watch?v=s9IWvbbZPZc](https://www.youtube.com/watch?v=s9IWvbbZPZc)	
     * Hieroglyph (m): [https://www.youtube.com/watch?v=JC2Nn0lPmfc](https://www.youtube.com/watch?v=JC2Nn0lPmfc)
     * Mulaney: [https://www.youtube.com/watch?v=-3P19ICEYfI](https://www.youtube.com/watch?v=-3P19ICEYfI)
+    * Red Band Society: [https://www.youtube.com/watch?v=JPEI4CnAC4c](https://www.youtube.com/watch?v=JPEI4CnAC4c)
     * The Last Man On Earth (m): [https://www.youtube.com/watch?v=K_xNvdptsXY](https://www.youtube.com/watch?v=K_xNvdptsXY)
     * Wayward Pines (m): [https://www.youtube.com/watch?v=2z-b3Nw6Znw](https://www.youtube.com/watch?v=2z-b3Nw6Znw)
-    * *Without Trailers*: Red Band Society; Weird Loner
+    * *Without Trailers*: Weird Loner
 
 * **NBC**
     * A to Z: [https://www.youtube.com/watch?v=-FKlRDYy_7o](https://www.youtube.com/watch?v=-FKlRDYy_7o)
