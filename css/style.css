@@ -113,9 +113,30 @@ span.date {
 }
 li > span.date {
 	color: #4E6074;
-	padding-right: 0.5em;
+	padding-right: 2em;
 	font-size: 1em;
 }
 .date i {
 	padding-right: 3px;
+}
+code {
+	font-family: "Inconsolata", monospace;
+	font-size: 1.04em;
+}
+
+table td {
+	padding: 4px;
+}
+thead {
+	background: rgb(221, 227, 236);
+}
+tbody {
+	background: rgb(245, 248, 252);
+}
+span.file {
+	display: block;
+	font-size: 0.9em;
+	font-weight: bolder;
+	margin-bottom: 1em;
+	color: #444;
 }
