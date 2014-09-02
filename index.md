@@ -6,5 +6,6 @@ tags: Home
 # Overview
 
 {% for post in site.posts %}
-*  <span class="date">{{ post.date | date: "%d %B %Y:" }}</span><a href="{{ post.url }}">{{ post.title }}</a>
+*  <a href="{{ post.url }}">{{ post.title }}</a><br/>
+<span class="date">{{ post.date | date: "%d %B %Y" }}</span>
 {% endfor %}
