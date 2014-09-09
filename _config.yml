@@ -1,2 +1,5 @@
-highlighter: pygments
+highlighter:	pygments
 # markdown: kramdown
+name:			static.andreasherten.de
+description:	Andreas blog-ish outpost for a bit more static content
+url:			http://static.andreasherten.de
