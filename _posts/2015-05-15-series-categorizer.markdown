@@ -201,7 +201,7 @@ A show can be modified if it's selected in the right box. *Modification* means:
 The **Cookies** line deals with saving the current setup of shows. It can either write all current settings into a cookie or load it from there. **Saving** automatically overwrites any previously saved entry, be careful! **Loading** from cookie will append the current list of series by those stored in cookie.
 
 ### Linking
-A URL for the current setup of shows can be generated. Since there is some data for every show, the URL can become long quite quickly. There's a button to be hit if you want to shorten the generated URL with Google's URL shortener. I haven't tried it yet for very long URLs – it might not work.
+A URL for the current setup of shows can be generated. Since there is some data for every show, the URL can become long quite quickly. There's a button to be hit if you want to shorten the generated URL with Google's URL shortener. I haven't tried it yet for very long URLs – it might not work. If the *shorten* button does nothing for you, you probably have Google stuff blocked with a browser plugin (Disconnect, AdBlock). Add the current page to your white list.
 
 If you're accessing the page with a parseable URL, the admin console will be hidden, since I expect you're an user coming here by someone else's instruction. 
 
