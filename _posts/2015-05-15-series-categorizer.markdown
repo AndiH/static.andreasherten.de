@@ -52,6 +52,12 @@ title: Series Categorizer
 		background: #d0e8f7;
 		border-color: #9fcae5;
 	}
+	#horizontalSlider .ui-slider-handle:hover {
+		cursor: ew-resize;
+	}
+	#verticalSlider .ui-slider-handle:hover {
+		cursor: ns-resize;
+	}
 	.init {
 		opacity: 0.3;
 	}
