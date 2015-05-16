@@ -396,15 +396,19 @@ function loadCookie() {
 
 function generateUrl() {
 	var exportArray = generateExportArray();
+	var encodedArray = window.btoa(JSON.stringify(exportArray));
 	var currentUrlWithoutParams = location.protocol + '//' + location.host + location.pathname;
-	return $.param.querystring(currentUrlWithoutParams, exportArray);
+// 	return $.param.querystring(currentUrlWithoutParams, encodedArray);
+	return currentUrlWithoutParams + "?" + encodedArray;
 }
 function displayUrl(url) {
 	$("#urlInteraction #url code").text(url);
 }
 function parseUrl() {
-	var parsedUrl = $.deparam.querystring();
-	parseExportArray(parsedUrl);
+// 	var parsedUrl = $.deparam.querystring();
+	var parsedUrl = window.location.search.substr(1);
+	var decodedUrl = JSON.parse(window.atob(parsedUrl));
+	parseExportArray(decodedUrl);
 }
 var shortenedUrl;
 function shortenUrl() {
@@ -436,10 +440,11 @@ function shorten(url) {
 }
 
 function tryToParseUrl() {
-	var parsedUrl = $.deparam.querystring();
+	var parsedUrl = window.location.search.substr(1);
+	parsedUrl = JSON.parse(window.atob(parsedUrl));
 	
 	if (!$.isEmptyObject(parsedUrl['h'])
-	 && !$.isEmptyObject(parsedUrl['pur'])
+// 	 && !$.isEmptyObject(parsedUrl['pur'])  // This does not work for some reason!? Super strange
 	 && !$.isEmptyObject(parsedUrl['shows'])) {
 		urlMode = true;
 		parseUrl();
