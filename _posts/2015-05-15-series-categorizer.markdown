@@ -441,7 +441,10 @@ function shorten(url) {
 
 function tryToParseUrl() {
 	var parsedUrl = window.location.search.substr(1);
-	parsedUrl = JSON.parse(window.atob(parsedUrl));
+	try {
+		parsedUrl = JSON.parse(window.atob(parsedUrl));
+	}
+	catch(err) {}
 	
 	if (!$.isEmptyObject(parsedUrl['h'])
 // 	 && !$.isEmptyObject(parsedUrl['pur'])  // This does not work for some reason!? Super strange
@@ -456,7 +459,7 @@ $(document).ready(function() {
 	$(".fancybox").fancybox();
 	
 	//^^^ Look for parsable URL present
-	if (!$.isEmptyObject($.deparam.querystring())) {
+	if (window.location.search.substr(1) != "") {
 		tryToParseUrl();
 	}
 	if (!urlMode) {
@@ -502,8 +505,8 @@ $(document).ready(function() {
 		renameShow();
 	});
 	// Slider
-	$("#verticalSlider").slider().slider("value", defaultPosition.vertical).slider("option", "disabled", true);
-	$("#horizontalSlider").slider().slider("value", defaultPosition.horizontal).slider("option", "disabled", true);
+	$("#verticalSlider").slider().slider({value: defaultPosition.vertical, step: 0.25, disabled: true});
+	$("#horizontalSlider").slider().slider({value: defaultPosition.horizontal, step: 0.25, disabled: true});
 	$("#horizontalSlider").on("slide", function(event, ui) {
 		moveShowHorizontal(ui.value);
 	});
