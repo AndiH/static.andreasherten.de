@@ -402,7 +402,7 @@ function loadCookie() {
 
 function generateUrl() {
 	var exportArray = generateExportArray();
-	var encodedArray = window.btoa(JSON.stringify(exportArray));
+	var encodedArray = window.btoa(JSON.stringify(exportArray).replace(/’/g, "'"));
 	var currentUrlWithoutParams = location.protocol + '//' + location.host + location.pathname;
 // 	return $.param.querystring(currentUrlWithoutParams, encodedArray);
 	return currentUrlWithoutParams + "?" + encodedArray;
