@@ -63,7 +63,7 @@ body {
 	margin-top: 8px;
 	width: 800px;
 	padding: 20px;
-	background: url('http://www.andisblog.de/wp-content/uploads/2012/11/header_20white.png') rgba(255, 255, 255, 0.8);
+	background: url('/assets/img/header_20white.png') rgba(255, 255, 255, 0.8);
 	background-size: 100px;
 	background-repeat: repeat-x;
 	margin-bottom: 20px;
