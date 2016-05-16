@@ -33,10 +33,9 @@ Legend: `(m)` is for midseason (whatever this means), `(s)` is for summer (usual
     - *Without trailers yet (all (m)):* The Blacklist: Redemption, Chicago Justice, Emerald City, Great News, Marlon, Powerless, Midnight, Texas, Taken, Trial & Error
     - *More on NBC's 2016 schedule*: [Metacritic](http://www.metacritic.com/feature/nbc-new-shows-and-schedule-fall-2016), [Wikipedia](https://en.wikipedia.org/wiki/2016%E2%80%9317_United_States_network_television_schedule#NBC)
     
-* Others
-    - **USA**
-        - Falling Water: [https://www.youtube.com/watch?v=m4InXOM3PmA](https://www.youtube.com/watch?v=m4InXOM3PmA)
-        - Shooter: [https://www.youtube.com/watch?v=X2x6IR3FhbQ](https://www.youtube.com/watch?v=X2x6IR3FhbQ)
+* **USA**
+    - Falling Water: [https://www.youtube.com/watch?v=m4InXOM3PmA](https://www.youtube.com/watch?v=m4InXOM3PmA)
+    - Shooter: [https://www.youtube.com/watch?v=X2x6IR3FhbQ](https://www.youtube.com/watch?v=X2x6IR3FhbQ)
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script>
