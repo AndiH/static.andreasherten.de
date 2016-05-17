@@ -25,18 +25,18 @@ Legend: `(m)` is for midseason (whatever this means), `(s)` is for summer (usual
 * **The CW**
     
 * **FOX**
-    - 24: Legacy: [https://www.youtube.com/watch?v=sOWpUB_Xdqs](https://www.youtube.com/watch?v=sOWpUB_Xdqs)
-    - APB: [https://www.youtube.com/watch?v=bsbVnrOkcr8](https://www.youtube.com/watch?v=bsbVnrOkcr8)
-    - Lethal Weapon: [https://www.youtube.com/watch?v=cXZdEmvcFdU](https://www.youtube.com/watch?v=cXZdEmvcFdU)
+    - 24: Legacy (m): [https://www.youtube.com/watch?v=sOWpUB_Xdqs](https://www.youtube.com/watch?v=sOWpUB_Xdqs)
+    - APB (m): [https://www.youtube.com/watch?v=bsbVnrOkcr8](https://www.youtube.com/watch?v=bsbVnrOkcr8)
     - The Exorcist: [https://www.youtube.com/watch?v=5NH3ffAp9aA](https://www.youtube.com/watch?v=5NH3ffAp9aA)
-    - Son of Zorn: [https://www.youtube.com/watch?v=kPnlQTi8heM](https://www.youtube.com/watch?v=kPnlQTi8heM)
+    - Lethal Weapon: [https://www.youtube.com/watch?v=cXZdEmvcFdU](https://www.youtube.com/watch?v=cXZdEmvcFdU)
+    - Making History (m): [https://www.youtube.com/watch?v=Z-TVyOqCkr0](https://www.youtube.com/watch?v=Z-TVyOqCkr0)
+    - The Mick (m): [https://www.youtube.com/watch?v=MQ6Jg5i_pqc](https://www.youtube.com/watch?v=MQ6Jg5i_pqc)
+    - Pitch (m): [https://www.youtube.com/watch?v=k0wLCGwYZ3g](https://www.youtube.com/watch?v=k0wLCGwYZ3g)
+    - Prison Break (m): [https://www.youtube.com/watch?v=x9T-9fZn_oA](https://www.youtube.com/watch?v=x9T-9fZn_oA)
     - The Rocky Horror Picture Show: [https://www.youtube.com/watch?v=outmDIi29Bo](https://www.youtube.com/watch?v=outmDIi29Bo)
-    - Pitch: [https://www.youtube.com/watch?v=k0wLCGwYZ3g](https://www.youtube.com/watch?v=k0wLCGwYZ3g)
-    - Prison Break: [https://www.youtube.com/watch?v=x9T-9fZn_oA](https://www.youtube.com/watch?v=x9T-9fZn_oA)
-    - Shots Fired: [https://www.youtube.com/watch?v=1RmkAihHeJg](https://www.youtube.com/watch?v=1RmkAihHeJg)
-    - The Mick: [https://www.youtube.com/watch?v=MQ6Jg5i_pqc](https://www.youtube.com/watch?v=MQ6Jg5i_pqc)
-    - Making History: [https://www.youtube.com/watch?v=Z-TVyOqCkr0](https://www.youtube.com/watch?v=Z-TVyOqCkr0)
-    - Star: [https://www.youtube.com/watch?v=T2snL9QUIZI](https://www.youtube.com/watch?v=T2snL9QUIZI)
+    - Shots Fired (m): [https://www.youtube.com/watch?v=1RmkAihHeJg](https://www.youtube.com/watch?v=1RmkAihHeJg)
+    - Son of Zorn: [https://www.youtube.com/watch?v=kPnlQTi8heM](https://www.youtube.com/watch?v=kPnlQTi8heM)
+    - Star (m): [https://www.youtube.com/watch?v=T2snL9QUIZI](https://www.youtube.com/watch?v=T2snL9QUIZI)
     
 * **NBC**
     - The Good Place: [https://www.youtube.com/watch?v=UMf24rEsMOs](https://www.youtube.com/watch?v=UMf24rEsMOs)
