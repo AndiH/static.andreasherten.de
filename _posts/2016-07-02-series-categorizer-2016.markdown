@@ -200,14 +200,14 @@ function initGapi() {
 		</form>
 	</div>
 	<div id="cookieInteraction">
-		<span class="formdescription" title="The current shows and their configuration can be saved or retrieved from cookies.">Cookies:</span> <button id="saveCookie">Save</button>
+		<span class="formdescription" title="The current shows and their configuration can be saved to or retrieved from the current browser. If available, localStorage is used; Cookies are used otherwise. Note: Cookies have a size limit and can store only so many shows.">Save to browser:</span> <button id="saveCookie">Save</button>
 		<button id="loadCookie">Load</button>
 	</div>
 	<div id="urlInteraction">
 		<span class="formdescription" title="Shows can be parsed from URL or a URL for the current shows can be generated.">URLs:</span> 
 		<button id="genUrl">Generate URL</button>
 		<button id="parseUrl">Parse URL</button>
-		<button id="shortenUrl">Shorten</button>
+		<button id="shortenUrl" title="Try to shorten the URL. Does not work if you have many shows.">Shorten</button>
 		<pre class="shortedUrl" style="display: inline"><code></code></pre>
 		<pre id="url" style="display: none"><code></code></pre>
 	</div>
@@ -274,6 +274,7 @@ Apart from even more cluttered source code, this version features jQuery UI to e
 	+ Meta+i (⌘+i) will focus on the *New Show* field, in which you can hit enter to create a new show.
 	+ You see the *?* in the upper right corner of the website? All keystrokes are summarized there. You could also hit `?` on your keyboard to show it.
 * Also, the height of the map can now be adjusted by dragging it on the lower border.
+* Local Storage is used to save information instead of cookies (if available). This offers saving many more shows, since cookies are usually limited in size. Also, URLs are now additionally compressed with [`lz-string.js`](http://pieroxy.net/blog/pages/lz-string/index.html) (yes, one additional library…).
 
 All the rest has pretty much stayed the same. If you find a bug, which totally can be there because of the new features, just [drop me a message](https://twitter.com/AndiH/).
 
@@ -694,7 +695,6 @@ $(document).ready(function() {
 		var header = '<link rel="stylesheet" href="//static.andreasherten.de/css/seriestriptychon.css" type="text/css" media="screen" />\n'.replace(/\</g,"&lt;").replace(/\>/g, "&gt;");
 		var content = $("#seriestriptychon").
 			prop('outerHTML');
-		console.log(content);
 		var content = content.
 			replace(/class="draggable draggable-active ui-draggable ui-draggable-handle"/g, "").
 			replace(/class="ui-resizable-handle ui-resizable-e"/g, "").
