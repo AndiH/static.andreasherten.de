@@ -167,6 +167,7 @@ title: Series Categorizer 2016
 <link rel="stylesheet" href="/assets/js/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
 <script type="text/javascript" src="/assets/js/jquery.fancybox.pack.js?v=2.1.5"></script>
 <script type="text/javascript" src="/assets/js/keypress-2.1.4.min.js"></script>
+<script type="text/javascript" src="/assets/js/lz-string.min.js"></script>
 <script>
 function initGapi() {
 	gapi.client.setApiKey('AIzaSyDzu5-cdGnVFrOGIIO20_nDJo0rQmaVAfs');
@@ -508,7 +509,8 @@ function loadCookie() {
 
 function generateUrl() {
 	var exportArray = generateExportArray();
-	var encodedArray = window.btoa(JSON.stringify(exportArray).replace(/’/g, "'"));
+// 	var encodedArray = window.btoa(JSON.stringify(exportArray).replace(/’/g, "'"));
+	var encodedArray = LZString.compressToBase64(JSON.stringify(exportArray).replace(/’/g, "'"));
 	var currentUrlWithoutParams = location.protocol + '//' + location.host + location.pathname;
 // 	return $.param.querystring(currentUrlWithoutParams, encodedArray);
 	return currentUrlWithoutParams + "?" + encodedArray;
@@ -519,7 +521,8 @@ function displayUrl(url) {
 function parseUrl() {
 // 	var parsedUrl = $.deparam.querystring();
 	var parsedUrl = window.location.search.substr(1);
-	var decodedUrl = JSON.parse(window.atob(parsedUrl));
+// 	var decodedUrl = JSON.parse(window.atob(parsedUrl));
+	var decodedUrl = JSON.parse(LZString.decompressFromBase64(parsedUrl));
 	parseExportArray(decodedUrl);
 }
 var shortenedUrl;
