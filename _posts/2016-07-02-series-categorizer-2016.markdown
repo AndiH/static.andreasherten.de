@@ -496,11 +496,20 @@ function renameShow() {
 	}
 }
 function writeCookie() {
-	Cookies.set("seriescategorizer", JSON.stringify(generateExportArray()));
+	var expArray = JSON.stringify(generateExportArray());
+	if (typeof(Storage) !== "undefined") {
+		localStorage.setItem("seriescategorizer", expArray);
+	} else {
+		Cookies.set("seriescategorizer", expArray);
+	}
 	console.log("Stored " + Object.keys(arrShows).length + " shows.");
 }
 function loadCookie() {
-	var tempArray = Cookies.getJSON("seriescategorizer");
+	if (typeof(Storage) !== "undefined") {
+		var tempArray = JSON.parse(localStorage.getItem("seriescategorizer"));
+	} else {
+		var tempArray = Cookies.getJSON("seriescategorizer");
+	}
 	var oldNumberOfShows = Object.keys(arrShows).length;
 	parseExportArray(tempArray);
 	var newNumberOfShows = Object.keys(arrShows).length;
@@ -557,7 +566,8 @@ function shorten(url) {
 function tryToParseUrl() {
 	var parsedUrl = window.location.search.substr(1);
 	try {
-		parsedUrl = JSON.parse(window.atob(parsedUrl));
+		// parsedUrl = JSON.parse(window.atob(parsedUrl));
+		parsedUrl = JSON.parse(LZString.decompressFromBase64(parsedUrl));
 	}
 	catch(err) {return;}
 	
