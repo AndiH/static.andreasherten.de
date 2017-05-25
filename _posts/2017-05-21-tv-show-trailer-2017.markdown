@@ -20,7 +20,7 @@ Legend: `(m)` is for midseason (whatever this means). Hit the `Video Embed` butt
 
 
 * **ABC**
-    + Alex, Inc. (m): [https://www.youtube.com/watch?v=j91FK6K-8Dg](https://www.youtube.com/watch?v=j91FK6K-8Dg)
+    + Alex, Inc. (m): [https://www.youtube.com/watch?v=8dBJf3arrNY](https://www.youtube.com/watch?v=8dBJf3arrNY)
     + The Crossing: [https://www.youtube.com/watch?v=9LMkHLt1rx8](https://www.youtube.com/watch?v=9LMkHLt1rx8)
     + Deception: [https://www.youtube.com/watch?v=tEKCP4slr28](https://www.youtube.com/watch?v=tEKCP4slr28)
     + For the People (m): [https://www.youtube.com/watch?v=yGhtrRX_NSg](https://www.youtube.com/watch?v=yGhtrRX_NSg)
